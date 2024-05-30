@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodoApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="/assets/images/logo.png" alt="" srcset="">
+        </div>
+        <div class="content">
+            <nav>
+                <a href="#" class="btn btn-primary"> criar tarefa</a>
+            </nav>
+            <main>
+                <section class="graph">
+                    <div class="graph-header">
+                        <div class="graph-header-text">Progresso do dia</div>
+                        <span class="linha-header"></span>
+                        <div class="graph-header-date">
+                            <img src="/assets/images/icon-prev.png" alt="">
+                            12/12/2024
+                            <img src="/assets/images/icon-next.png" alt="">
+                        </div>
+                    </div>
+                    <div class="grap-header--subtitle">
+                        tarefas <b>3/6</b>
+                    </div>
+                    <div class="graph-placeholder">
+                        a
+                    </div>
+
+                    <div class="tasks-left">
+                        <img src="assets/images/icon-info.png" alt=""> restam 3 tarefas para serem realizadas</div>
+
+                </section>
+                <section class="list">
+                    <div class="list-header">
+                        <select name="list-header-select" id="select-tarefa">
+                            <option value="1"> todas as tarefas</option>
+                        </select>
+                    </div>
+                    <div class="task_list">
+                        <div class="task">
+                            <div class="title">
+                                <input type="checkbox" name="" id="">
+                                <span>titulo da tarefa</span>
+                            </div>
+                            <div class="priority">
+                                <div class="sphere"></div>
+                                <span>texto</span>
+                            </div>
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="assets/images/icon-edit.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/icon-delete.png" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="task">
+                            <div class="title">
+                                <input type="checkbox" name="" id="">
+                                <span>titulo da tarefa</span>
+                            </div>
+                            <div class="priority">
+                                <div class="sphere"></div>
+                                <span>texto</span>
+                            </div>
+                            <div class="actions">
+                                <a href="#">
+                                    <img src="assets/images/icon-edit.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/icon-delete.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
